@@ -1,45 +1,56 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project 1 - Bluebells Montessori
 
-Welcome USER_NAME,
+This is a website for a montessori school. Its main purpose is a marketing tool for the school. It is designed to be viewed on mobile, tablet and desktop so should be easy to navigate.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## UX Design 
 
-## Gitpod Reminders
+### User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Design
 
-`python3 -m http.server`
+### Wireframes
 
-A blue button should appear to click: *Make Public*,
+## Features
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies Used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Languages
 
-A blue button should appear to click: *Make Public*,
+* HTML
+* CSS
 
-Another blue button should appear to click: *Open Browser*.
+### Frameworks, Libraries and Programs Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+1. Bootstrap 4.3.1
 
-## Updates Since The Instructional Video
+2. Balsamiq wireframes created at the design stage in website devolopment
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+3. Google Fonts selected Merriweather and Roboto fonts and imported to the style.css file 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+4. Font Awesome was used for icons used throughout the website
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+5. Adobe Color selected a colour palette for website from adobe color. I chose blue tones as this is inline with current branding the school has
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Deployment
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Credits
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Content
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Media
+* Photographs
+1. www.despositphotos.com
+2. www.pixabay.com
 
---------
+* Code
 
-Happy coding!
+### Acknowledgements
+* I would like to thank my mentor 
+
+
+
+
+
+
