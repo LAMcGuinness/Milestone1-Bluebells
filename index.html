@@ -15,60 +15,57 @@
     </head>
 
     <body>
-         <nav class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
-             <a class="navbar-brand" href="#">
-                <img src="assets/images/bluebelllogo.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
+        <div class="container-fluid navbar-container">
+             <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
+                  <a class="navbar-brand" href="#">
+                    <img src="assets/images/bluebelllogo.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
                     Bluebells Montessori
-             </a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-             </button>
+                </button>
         
-            <div class="collapse navbar-collapse" id="navbarDropdown">
+                <div class="collapse navbar-collapse" id="navbarDropdown">
     
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Team</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Sessions</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Gallery</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                
-            </ul>
-            </div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-2"><a class="nav-link" href="#"><span>Home</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#"><span>Team</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#"><span>Sessions</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#"><span>Gallery</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#"><span>Contact</span></a></li>
+                </ul>
+                </div>
        
-    </nav>
+            </nav>
+        </div>
 
     <!-- Callout -->
         <div class="container-fluid callout-container">
+            <div class="opaque-overlay"></div>
             <div class="row">
                  <div class="col-12">
-                    <section class="callout jumbotron text-center">
-                        <h1>Bluebells Montessori</h1>
-                        <h2>Where learning Begins</h2>
-                        <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#contactusModal">Make an Enquiry</button></p>
+                    <section class="callout jumbotron text-center uppercase">
+                        <h1 class="jumbotron-header">Bluebells Montessori</h1>
+                        <hr class="block-divider">
+                        <h2 class="jumbotron-subhead">Where learning Begins</h2>
+                        <p><button class="btn btn-lg btn-cta btn-yellow" data-toggle="modal" data-target="#contactusModal">Contact Us</button></p>
                     </section>
                  </div>
             </div>
+            
         </div>
 
     <!-- Quotes -->
-        <div class="container quotes-container">
-             <section class="quotes">
-                <div class="row">
-                    <div class="col-12 my-5">
-                        <h2>What parentss are saying about us</h2>
-                    </div>
-                </div>
+    
+        <div class="container-wrapper">
+            <div class="container quotes-container content-container">
+              <section class="quotes">
+                 <div class="row">
+                        <div class="col-12 page-header">
+                        <h2 class="uppercase">What parentss are saying about us</h2>
+                        <hr class="block-divider">
+                        </div>
+                 </div>
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <div class="media">
@@ -111,23 +108,26 @@
                     
                     </div>
                 </div>
+
             </section>
         </div>
-         
+         </div>
             
     <!--About-->
-            <div class="container about-container">
+         <div class="container-wrapper">
+            <div class="container about-container content-container">
                 <section class="about">
                     <div class="row">
-                        <div class="col-12 my-5">
-                            <h2>About Bluebells</h2>
+                        <div class="col-12 page-header">
+                            <h2 class="uppercase">About Bluebells</h2>
+                            <hr class="block-divider">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 d-sm-inline">
                             <img src="assets/images/frontshot.jpg" class="rounded float-left" height="300" width="250" alt="exterior front photo of school">
                         </div>
-                        <div class="col-8">
+                        <div class="col-8 d-sm-inline">
                             <div class="about">
                                  <p>Bluebells is a long established purpose built montessori in Longford Town. 
                                  We hope to create a warm and homely atmosphere which is important for children going to school for the first time. 
@@ -154,30 +154,98 @@
                     </div>
                 </section>
             </div>
+            </div>
+        <!--The Team-->
+        <div class="container-wrapper">
+        <div class="container team-container content-container">
+             <section class="team">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="uppercase">Meet the Team</h2>
+                        <hr class="block-divider">
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
+        <!--Sessions-->
+        <div class="container-wrapper">
+        <div class="container sessions-container content-container">
+             <section class="sessions">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="uppercase">Sessions</h2>
+                        <hr class="block-divider">
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
+
+        <!--Gallery-->
+        <div class="container-wrapper">
+        <div class="container gallery-container content-container">
+             <section class="gallery">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="uppercase">Gallery</h2>
+                        <hr class="block-divider">
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
+        
+
+        <!--ContactUS-->
+        <div class="container-wrapper">
+        <div class="container contactus-container content-container">
+             <section class="contactus">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="uppercase">Contact Us</h2>
+                        <hr class="block-divider">
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
 
         <!-----Footer edited from Rosie videos on CI----->
             <footer class="container-fluid footer-section">
-                <div class="row">
+                <div class="row" id="footer-details">
                 <!--First Col-->
                 <div class="col-sm-4">
-                    <p>Bluebells Montessori</p>
+                    <p class="inline-block">Bluebells Montessori</p>
                 </div>
                 <!--Second Col-->
                 <div class="col-sm-4">
                     <i class="fa fa-envelope"></i>
-                    <p>bluebellsmontessori@gmail.com</p>
+                    <p class="inline-block">bluebellsmontessori@gmail.com</p>
                     <i class="fa fa-phone"></i>
-                    <p>0433347065</p>
+                    <p class="inline-block">0433347065</p>
                 </div>
                 <!--Third Col-->
                 <div class="col-sm-4">
                     <h5 class="uppercase">Find us on:</h5>
-                        <a href="https://www.instagram.com/" target="_blank" class="socials-link" aria-label="Instagram">
-                        <i class="fa fa-instagram"></i>
-                        </a>
-                        <a href="https://www.facebook.com/" target="_blank" class="socials-link" aria-label="Facebook">
-                        <i class="fa fa-facebook"></i>
-                        </a>
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank" class="socials-link" aria-label="Facebook">
+                                <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com" target="_blank" class="socials-link" aria-label="Instagram">
+                                <i class="fab fa-istagram" aria-hidden="true"></i></a>
+                            </li>
+                             <li class="list-inline-item">
+                                <a href="https://www.twitter.com/" target="_blank" class="socials-link" aria-label="twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                             <li class="list-inline-item">
+                                <a href="https://www.pinterest.com/" target="_blank" class="socials-link" aria-label="pinterest">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
                 </div>
                 </div>
             </footer>
