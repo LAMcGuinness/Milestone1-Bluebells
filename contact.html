@@ -47,33 +47,77 @@
             </div>
         </nav>
     <!--Section-->
+        <!--ContactUS-->
+            <section class="container-fluid contactus-container content-container">
+               <div class="bg-color-contact">
+                 <h2 class="uppercase text-center">Contact Us</h2>
+                 <hr class="block-divider">
+                    <div class="row">
+                    <div class="col-lg-6 mb-4">        
+                            <h3 class="uppercase text-center contact-heading">Send us a message</h3>
+                            
+                                <form>
+                                    <input type="text" class="form-control"  name="name" id="fullname" placeholder="Name" required/>
+                                    <input type="email" class="form-control"  name="email" id="emailaddress" placeholder="Email" required/>
+                                    <textarea class="form-control" name="messagehere" id="messagehere" rows="8" placeholder="Write your message here" required></textarea>
+                                        <div class="text-center">
+                                         <button type="submit" class="btn btn-blues">Contact Us</button>
+                                        </div>
+                                    </form>  
+                            
+                    </div>
+                    <div class="col-lg-6">
+                                <h3 class="uppercase maps-heading">Find us here</h3>
 
-    <!--Footer-->
-                <footer class="container-fluid footer-section">
-                <div class="row">
+                                    <div class="maps-location">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4721.1972549051225!2d-7.788405332757559!3d53.725412270903306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ccd12ae180526a9!2sBluebells%20Montessori%20Nursery!5e0!3m2!1sen!2sie!4v1611399480429!5m2!1sen!2sie" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
+                                    </div>  
+                   
+
+                   
+                    </div>
+                    </div>
+                    </div>
+            </section>
+     
+
+        <!-----Footer edited from Rosie videos on CI----->
+            <footer class="container-fluid footer-section">
+                <div class="row" id="footer-details">
                 <!--First Col-->
                 <div class="col-sm-4">
-                    <p>Bluebells Montessori</p>
+                    <p class="inline-block">Bluebells Montessori</p>
                 </div>
                 <!--Second Col-->
                 <div class="col-sm-4">
                     <i class="fa fa-envelope"></i>
-                    <p>bluebellsmontessori@gmail.com</p>
+                    <p class="inline-block">bluebellsmontessori@gmail.com</p>
                     <i class="fa fa-phone"></i>
-                    <p>0433347065</p>
+                    <p class="inline-block">0433347065</p>
                 </div>
                 <!--Third Col-->
                 <div class="col-sm-4">
                     <h5 class="uppercase">Find us on:</h5>
-                        <a href="https://www.instagram.com/" target="_blank" class="socials-link" aria-label="Instagram">
-                        <i class="fa fa-instagram"></i>
-                        </a>
-                        <a href="https://www.facebook.com/" target="_blank" class="socials-link" aria-label="Facebook">
-                        <i class="fa fa-facebook"></i>
-                        </a>
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank" class="socials-link" aria-label="Facebook">
+                                <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com" target="_blank" class="socials-link" aria-label="Instagram">
+                                <i class="fa fa-istagram" aria-hidden="true"></i></a>
+                            </li>
+                             <li class="list-inline-item">
+                                <a href="https://www.twitter.com/" target="_blank" class="socials-link" aria-label="twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                             <li class="list-inline-item">
+                                <a href="https://www.pinterest.com/" target="_blank" class="socials-link" aria-label="pinterest">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
                 </div>
                 </div>
             </footer>
-    
     </body>
 </html>
