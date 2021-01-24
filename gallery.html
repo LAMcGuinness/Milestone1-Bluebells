@@ -13,64 +13,111 @@
         <title>Bluebells</title>
     
     </head>
+
     <body>
-    <!--Navbar-->
-         <nav class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
-             <a class="navbar-brand" href="#">
-                <img src="assets/images/bluebelllogo.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
+        <div class="container-fluid navbar-container">
+             <nav class="navbar fixed-top navbar-light navbar-expand-sm">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
                     Bluebells Montessori
-             </a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-             </button>
+                </button>
         
-            <div class="collapse navbar-collapse" id="navbarDropdown">
+                <div class="collapse navbar-collapse" id="navbarDropdown">
     
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Team</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Sessions</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Gallery</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                
-            </ul>
-            </div>
-        </nav>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html"><span>Home</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#"><span>Team</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#"><span>Sessions</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="gallery.html"><span>Gallery</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html"><span>Contact</span></a></li>
+                </ul>
+                </div>
+       
+            </nav>
+        </div>
+
     <!--Section-->
+        <div class="container-wrapper">
+        <div class="container-fluid gallery-container content-container">
+             <section class="gallery">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="uppercase">Gallery</h2>
+                        <hr class="block-divider">
+                    </div>
+                    <div class="gallery-grid">
+                        <figure class="gallery-items galleryimg1">
+                            <img src="assets/images/ms1teacherandchildern.jpg" alt="teacher with children" class="gallery-img" >
+                        </figure>
+                        <figure class="gallery-items galleryimg2">
+                            <img src="assets/images/galleryimg2.jpg" alt="picture of school exterior" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-items galleryimg3">
+                            <img src="assets/images/gallaryimg3.jpg" alt="child painting" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-items galleryimg4">
+                            <img src="assets/images/galleryimg4.jpg" alt="child picking raspberries" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-item galleryimg5">
+                            <img src="assets/images/galleryimg5.jpg" alt="school sign" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-items galleryimg6">
+                            <img src="assets/images/galleryimgsnow.jpg" alt="playing in snow" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-items galleryimg7">
+                            <img src="assets/images/galleryimg7.jpg" alt="inside school" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-items galleryimg8">
+                            <img src="assets/images/galleryimg8.jpg" alt="montessori equipment" class="gallery-img">
+                        </figure>
+
+
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
 
     <!--Footer-->
-                <footer class="container-fluid footer-section">
-                <div class="row">
+        <!-----Footer edited from Rosie videos on CI----->
+            <footer class="container-fluid footer-section">
+                <div class="row" id="footer-details">
                 <!--First Col-->
                 <div class="col-sm-4">
-                    <p>Bluebells Montessori</p>
+                    <p class="inline-block">Bluebells Montessori</p>
                 </div>
                 <!--Second Col-->
                 <div class="col-sm-4">
                     <i class="fa fa-envelope"></i>
-                    <p>bluebellsmontessori@gmail.com</p>
+                    <p class="inline-block">bluebellsmontessori@gmail.com</p>
                     <i class="fa fa-phone"></i>
-                    <p>0433347065</p>
+                    <p class="inline-block">0433347065</p>
                 </div>
                 <!--Third Col-->
                 <div class="col-sm-4">
                     <h5 class="uppercase">Find us on:</h5>
-                        <a href="https://www.instagram.com/" target="_blank" class="socials-link" aria-label="Instagram">
-                        <i class="fa fa-instagram"></i>
-                        </a>
-                        <a href="https://www.facebook.com/" target="_blank" class="socials-link" aria-label="Facebook">
-                        <i class="fa fa-facebook"></i>
-                        </a>
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank" class="socials-link" aria-label="Facebook">
+                                <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <!--Instagram not working-->
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com" target="_blank" class="socials-link" aria-label="Instagram">
+                                <i class="fab fa-istagram" aria-hidden="true"></i></a>
+                            </li>
+                             <li class="list-inline-item">
+                                <a href="https://www.twitter.com/" target="_blank" class="socials-link" aria-label="twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                             <li class="list-inline-item">
+                                <a href="https://www.pinterest.com/" target="_blank" class="socials-link" aria-label="pinterest">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
                 </div>
                 </div>
             </footer>
