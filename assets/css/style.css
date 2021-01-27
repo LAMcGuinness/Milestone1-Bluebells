@@ -20,6 +20,10 @@ body {
     color: #6688CC;
 }
 
+card {
+    background-color: #ACBFE6;
+}
+
 .container-wrapper {
 
 }
@@ -172,6 +176,10 @@ nav{
 /*-- sessions --*/
 #sessions-img {
     align-items: center;
+}
+
+.card-title-sessions {
+    font-weight: 700;
 }
 
 
