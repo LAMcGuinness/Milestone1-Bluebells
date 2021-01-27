@@ -15,99 +15,114 @@
     </head>
     <body>
     <!--Navbar-->
-         <nav class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
-             <a class="navbar-brand" href="#">
-                <img src="assets/images/bluebelllogo.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
+         <div class="container-fluid navbar-container">
+             <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
                     Bluebells Montessori
-             </a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-             </button>
+                </button>
         
-            <div class="collapse navbar-collapse" id="navbarDropdown">
+                <div class="collapse navbar-collapse" id="navbarDropdown">
     
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Team</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Sessions</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Gallery</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                
-            </ul>
-            </div>
-        </nav>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html"><span>Home</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#"><span>Team</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="sessions.html"><span>Sessions</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="gallery.html"><span>Gallery</span></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html"><span>Contact</span></a></li>
+                </ul>
+                </div>
+       
+            </nav>
+        </div>
+
     <!--Section-->
         <div class="container-wrapper">
             <div class="container-fluid sessions-container content-container">
-                <section class="sessions">
+                
                 <div class="row">
                     <div class="col-12 page-header">
                         <h2 class="uppercase">Sessions</h2>
                         <hr class="block-divider">
                     </div>
                 </div>
-                <div class="row"></div>
-                    <div class="col">
-                        <img src="assets/images/time.jpg" alt="boy with clock">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6" id="sessions-img">
+                        <img src="assets/images/time.jpg" class="rounded float-left" alt="boy with clock">
                     </div>
-                    <div class="col">
-                            <h3>Theyre are to sessions available Monday-Friday</h3>
+                    <div class="col sm-12 col-md-6">
+                            <h3>Two sessions daily Monday-Friday</h3>
                             <ul>
                                 <li>Morning: 09:00-12:30</li>
                                 <li>Afternoon: 13:00-16:30</li>
                             </ul>
                             * Early dropoff is available at an additional cost to parents
                     </div>
-                    <div class="col">
-                            <h3>ECCE Scheme/Free Preschool Year</h3>
-                            <p></p>
-                    </div>
-
-                    <div class="col">
-                            <h3>Term Times</h3>
-                    </div>
                 </div>
-
-            
-            
-                </section>
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">ECCE Scheme/Free Preschool Year</h5>
+                            <p class="card-text">The ECCE Scheme allows children to start pre-school from the age of 3 years and continue until they enter primary school. </p>
+                            <a href="https://www.gov.ie/en/publication/2459ee-early-childhood-care-and-education-programme-ecce/" class="btn btn-cta btn-blues">Click Here</a>
+                     </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Term Times</h5>
+                            <p class="card-text">We have the same term times as the local primary schools. Click the link below for our timetable!</p>
+                            <a href="assets/docs/School Schedule.numbers" class="btn btn-cta btn-blues">Our Timetable</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <!--Footer-->
                 <footer class="container-fluid footer-section">
                 <div class="row">
                 <!--First Col-->
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-4 text-center">
                     <p>Bluebells Montessori</p>
                 </div>
                 <!--Second Col-->
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-4 text-center">
                     <i class="fa fa-envelope"></i>
                     <p>bluebellsmontessori@gmail.com</p>
+                    <br>
                     <i class="fa fa-phone"></i>
                     <p>0433347065</p>
                 </div>
                 <!--Third Col-->
-                <div class="col-sm-4">
-                    <h5 class="uppercase">Find us on:</h5>
-                        <a href="https://www.instagram.com/" target="_blank" class="socials-link" aria-label="Instagram">
-                        <i class="fa fa-instagram"></i>
-                        </a>
-                        <a href="https://www.facebook.com/" target="_blank" class="socials-link" aria-label="Facebook">
-                        <i class="fa fa-facebook"></i>
-                        </a>
+                <div class="col-sm-12 col-md-4 text-center">
+                   <h5 class="uppercase">Find us on:</h5>
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank" class="socials-link" aria-label="Facebook">
+                                <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <!--Instagram not working-->
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com" target="_blank" class="socials-link" aria-label="Instagram">
+                                <i class="fab fa-istagram" aria-hidden="true"></i></a>
+                            </li>
+                             <li class="list-inline-item">
+                                <a href="https://www.twitter.com/" target="_blank" class="socials-link" aria-label="twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                             <li class="list-inline-item">
+                                <a href="https://www.pinterest.com/" target="_blank" class="socials-link" aria-label="pinterest">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
                 </div>
                 </div>
             </footer>

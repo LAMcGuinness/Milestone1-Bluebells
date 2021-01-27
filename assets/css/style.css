@@ -115,11 +115,13 @@ nav{
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
+    
 }
 
 .navbar{
     margin-bottom: 0;
     border: 0;    
+    
     
 }
 
@@ -132,8 +134,7 @@ nav{
 
 .navbar .navbar-nav a{
     font-weight: 700;
-
-    
+    color: #182977;
 }
 
 .navbar .navbar-toggler {
@@ -163,6 +164,16 @@ nav{
 
 
 /*-- about--*/
+#about-img1 {
+    height: 100px;
+    width: 75%;
+}
+
+/*-- sessions --*/
+#sessions-img {
+    align-items: center;
+}
+
 
 /*-- gallery --*/
 .gallery-container{
