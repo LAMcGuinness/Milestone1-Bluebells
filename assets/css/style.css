@@ -286,11 +286,9 @@ nav{
     position: relative;
 }
 
-.maps-heading {
+.maps-location {
     padding-top: 10;
-    margin: 0 auto;
-    position: relative;
-
+    text-align: center;
 }
 
 form{
@@ -315,6 +313,7 @@ footer {
     color: #F2F2F2;
     min-height: 120px;
     margin: 0;
+    padding-top: 15px;
 }
 
 .social-links {
