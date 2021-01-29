@@ -178,6 +178,16 @@ nav{
     align-items: center;
 }
 
+.sessions-card{
+    background-color: #ACBFE6;
+    color: #182977;
+}
+
+.sessions-list{
+    text-align: center;
+    list-style-position: inside;
+}
+
 .card-title-sessions {
     font-weight: 700;
 }
