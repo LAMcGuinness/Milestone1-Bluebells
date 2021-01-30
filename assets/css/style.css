@@ -174,6 +174,25 @@ nav{
 }
 
 /*--Team--*/
+.team-member{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.team-items {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-fig-caption {
+    color: #6688CC;
+    text-align: justify;
+}
+
+small {
+    color: #6688CC;
+}
+
 
 /*-- sessions --*/
 #sessions-img {
