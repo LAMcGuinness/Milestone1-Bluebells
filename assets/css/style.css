@@ -88,6 +88,10 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    animation-name: callout-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
  /*--"Whiskey Drop Project" Code Institute --*/
 .opaque-overlay {
@@ -99,10 +103,21 @@ h5 {
     background-color: rgba(0, 0, 0, .3);
 }
 
-.quotes-container {
-
+.callout-outer {
+    height: 100vh; 
+    overflow: hidden;
 }
 
+@keyframes callout-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/*--about setion--*/
 .about-container {
 
 }
@@ -156,6 +171,7 @@ nav{
 .jumbotron-header {
     color: #182977;
     font-weight: 700;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 

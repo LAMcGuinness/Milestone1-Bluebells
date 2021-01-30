@@ -37,13 +37,13 @@ Wirefames were created using balsamiq and can be found in the link below.
   -  Contains quotes current clients along with their photograph on what they think of the school, services and facilities. Would give potential new clients confidence and reassurance in the service. 
 
 * About Section
- -  In this section users can find out more information about the school, services offered. The ethos and values of the school.
+  -  In this section users can find out more information about the school, services offered. The ethos and values of the school.
 
 * Team Section
- - The user can find out more information about the teachers and there qualifications
+  - The user can find out more information about the teachers and there qualifications
 
 * Sessions Section
- - Here the user can find information on the times the school is in operations. Also has links to the goverment website on the ECCE scheme and a link to the PDF of their term timetable.
+  - Here the user can find information on the times the school is in operations. Also has links to the goverment website on the ECCE scheme and a link to the PDF of their term timetable.
 
 * Gallery Section
    -  The gallery section is organised in a grid. Photographs show users school its facilities and some of activities carried out. 
@@ -83,6 +83,7 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 ### Deployment
 
+
 ### Credits
 
 * Code
@@ -103,9 +104,3 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 ### Acknowledgements
 * I would like to thank my mentor 
-
-
-
-
-
-
