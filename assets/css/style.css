@@ -66,16 +66,12 @@ h5 {
 }
 
 /*-- content containers --*/
-.navbar-container{
-
-}
-
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
-
+/*--callout--*/
 .callout-container {
     height: 100vh; 
 
@@ -395,7 +391,7 @@ footer {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
+ /*--need to fix--*/
 .btn--yellow:hover,
 .btn--yellow:active,
 .btn--yellow:focus,
