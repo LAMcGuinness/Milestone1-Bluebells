@@ -13,11 +13,10 @@
 } 
 --*/
 
-
-body {
-    font-family: "Merriweather", sans-serif;
-    background-color : #D5E5F2;
+.container-wrapper{
+    background-color: #ACBFE6;
     color: #6688CC;
+    font-family: roboto
 }
 
 card {
@@ -37,7 +36,7 @@ h2,
 h3,
 h4,
 h5 {
-    margin: 0;
+    margin: 10px;
 }
 
 
@@ -120,7 +119,8 @@ h5 {
 
 /*-- Navbar --*/
 nav{
-    background-color: #6688CC;
+    background-color: #182977;
+    color: #ACBFE6;
 }
 
 .navbar-container{
@@ -142,7 +142,7 @@ nav{
 
 .navbar-brand {
     font-weight: 700;
-    color: #182977;
+    color: 182977;
     
 }
 

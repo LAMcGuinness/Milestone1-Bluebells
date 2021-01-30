@@ -4,8 +4,8 @@ This is a website for a montessori school. Its main purpose is a marketing tool 
 
 
 ## UX Design 
-### Strategy
-1. Business Objectives
+
+### Business Scope
 By having this website the business is aiming to;
   *  Advertise our business
   *  Provide familes in the area with information about the school. 
@@ -13,7 +13,7 @@ By having this website the business is aiming to;
   *  Showcase facilities and services available in the school.
   *  Provide Information on services provided, opening times, contact details etc.,
 
-2. User Stories
+### User Stories
 As as user I want to;
   *   Navigate through the website with ease and find all information presented clearly and consciously.
   *   Find out infromation on the school, staff and services available
@@ -64,15 +64,15 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 ### Frameworks, Libraries and Programs Used
 
-1. Bootstrap 4.3.1
+1. [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) was used 
 
-2. Balsamiq wireframes created at the design stage in website devolopment
+2. [Balsamiq](https://balsamiq.cloud/snrllgh/p9puddq/r4729) wireframes created at the design stage in website devolopment
 
-3. Google Fonts selected Merriweather and Roboto fonts and imported to the style.css file 
+3. [Google Fonts](https://fonts.google.com/) selected Merriweather and Roboto fonts and imported to the style.css file 
 
-4. Font Awesome was used for icons used throughout the website
+4. [Font Awesome](https://fontawesome.com/v4.7.0/) was used for icons used throughout the website
 
-5. Adobe Color selected a colour palette for website from adobe color. I chose blue tones as this is inline with current branding the school. 
+5. [Adobe Color](https://color.adobe.com/create/color-wheel) selected a colour palette for website from adobe color. I chose blue tones as this is inline with current branding the school. 
 
 ### Testing
 * https://validator.w3.org/
@@ -93,6 +93,7 @@ Wirefames were created using balsamiq and can be found in the link below.
   4. Bootstrap Documentation used for modals, buttons, forms, figures etc. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
 
 * Media
+1. Logo was created on [Canva](https://www.canva.com/)
 
 * Photographs
 1. www.despositphotos.com
