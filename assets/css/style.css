@@ -1,31 +1,28 @@
 /*-- fonts imported from google fonts--*/
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
 
 /*-- Color 
-.color {
+colors 
     color: #182977;
     color: #6688CC; 
     color: #ACBFE6;
     color: #F2F2F2;
-} 
 --*/
 
-.container-wrapper{
-    background-color: #ACBFE6;
-    color: #6688CC;
-    font-family: roboto
+html {
+    overflow-x: hidden;
+    
 }
 
-card {
-    background-color: #ACBFE6;
+body {
+    font-family: "Merriweather";
 }
 
 .container-wrapper {
-
+    background-color: #ACBFE6;
+    color: #6688CC;
 }
+
 /**-- general --*/
 .uppercase{
     text-transform: uppercase;
@@ -113,9 +110,7 @@ h5 {
 }
 
 /*--about setion--*/
-.about-container {
 
-}
 
 /*-- Navbar --*/
 nav{
