@@ -16,6 +16,7 @@ html {
 
 body {
     font-family: "Merriweather";
+    color: #6688CC;
 }
 
 .container-wrapper {
@@ -300,9 +301,10 @@ small {
     grid-row-end: 10;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .gallery div { margin: 0; }
   .gallery { padding: 0; }
+  .gallery-img { column-count: 2;}
   
 }
 
@@ -323,8 +325,11 @@ small {
 
 .contact-form {
     padding-top: 10;
-    margin: 0 auto;
-    position: relative;
+    margin-right: 20;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 
 .maps-location {
@@ -332,10 +337,20 @@ small {
     text-align: center;
 }
 
+iframe {
+    height: 450px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 form{
     padding-top: 10px;
     margin-left: 20px;
-    
+}
+
+.form-control {
+    margin-bottom: 20px;
 }
 
 .location-map {
