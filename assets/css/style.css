@@ -192,6 +192,26 @@ nav{
     object-fit: cover;
 }
 
+#staff-img1 {
+    height: 300px;
+    width: 300px;
+}
+
+#staff-img2 {
+    height: 300px;
+    width: 300px;
+}
+
+#staff-img3 {
+    height: 300px;
+    width: 300px;
+}
+
+#staff-img4 {
+    height: 300px;
+    width: 300px;
+}
+
 .team-fig-caption {
     color: #6688CC;
     text-align: justify;

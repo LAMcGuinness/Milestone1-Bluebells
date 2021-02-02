@@ -108,6 +108,58 @@ Wirefames were created using balsamiq and can be found in the link below.
     - This can be found in the Contact Page there is a contact form. There is also a link with google maps here.
     - In the footer section of each page the phone numberes and email address for the school are clearly visable.
 
+### Testing Functionality
+#### Checked for broken links
+ * Started on landing page from the top left side clicked on every button and link to ensure that each had the desired action. 
+     - Navigation bar at the top worked including the school logo.
+     - Call to action button on the callout section results in modal form.
+     - On the modal form. The X button results in the modal being closed down.
+     - The submit button on modal form worked once "@" was present in the email address feild.
+     - Social media links opened social media accounts in a new tab.
+ * Testing the team and gallery pages
+     - Tested all buttons and links on the pages started on the top left hand side and worked way through.
+     - Navigation bar at the top including the school logo all had desired action.
+     - Social media links opened social media accounts in new tab.
+* Testing the Sessions page
+    - Tested all buttons and links on the pages started on the top left hand side and worked way through.
+    - Navigation bar at the top including the school logo all had desired action.
+    - Button with link to ECCE government website opens in a new tab.
+    - Button with link to school holiday schedule opens in a new tab.
+    - Social media links opened social media accounts in new tab.
+* Testing the Contact page
+    - Tested all buttons and links on the pages started on the top left hand side and worked way through.
+    - Navigation bar at the top including the school logo all had desired action.
+    - Submit button on form worked once all of the required feilds were entered.
+    - When larger google mapped link was clicked google maps opened in a new tab.
+    - Social media links opened social media accounts in new tab.
+
+#### Tested browser back/forward actions
+* The back and forward actions worked as expected throughout the site.
+
+#### Tested form validation
+* CTA modal form - worked as expected. The form can not be submitted if there is no "@" in the email feild. 
+* Contact form - worked as expected. It required all feilds to be filled; name, email and message. Email feild must contain "@". Submit button worked once all feilds filled correctly.
+
+### Testing Compatibility
+#### Responsiveness
+* Used Dev Tools and Responsive Viewer extension for chrome to see responsiveness on all devices.
+
+#### OS Test
+
+#### Devices Test
+The website was tested on the following devices:
+* MacBook Pro 13-inch
+* iPhone 11 Pro Max
+
+
+
+#### Browser Test
+Tested the website on most up to date versions of:
+* Google chrome
+* Firefox
+* Safari
+* Internet Explorer
+
 
 
 ## Deployment
