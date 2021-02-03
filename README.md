@@ -20,6 +20,14 @@ As as user I want to;
   *   Learn what the school opening hours are as well as session schedules and school holidays.
   *   Find out location and contact details to arrange a visit to the school before enrolling a child.
 
+As a returning user I want to;
+ * Find the contact details for the school so I can contact them directly about specifics such as enrolling a child.
+ * Want to find there social media details to learn more about the day to day activites in the school.
+ * I want to find out services times to see if this school times would suit my schedule.
+
+As a parent already using this school I want to;
+* Be able to find contact numbers incase of emergency ie running late for a pick up.
+
 ### Design
 
 ### Wireframes
@@ -79,20 +87,12 @@ Wirefames were created using balsamiq and can be found in the link below.
 * Drop down menu not working on section pages only working on index page.
     - Fix: Forgot to add the link for Javascript from Bootstrap at the bottom of the body section to the other pages.
 
-* https://developers.google.com/web/tools/lighthouse
+* Issues with the istagram social media link.
+    - Fix: Type error. Corrected spelling and link to social media is working.
 
-### Testing Business Scope
-*  Advertise our business
-
-*  Provide familes in the area with information about the school. 
-  
-*  Get enrollment numbers in the school up.
-
-*  Showcase facilities and services available in the school.
-
-*  Provide Information on services provided, opening times, contact details etc.,
 
 ### Testing User Stories
+#### First time user
 *   Navigate through the website with ease and find all information presented clearly and consciously.
     - This is done by the fixed navigation bar at the top. It is visable at all times on all devices.
 *   Find out infromation on the school, staff and services available.
@@ -106,6 +106,18 @@ Wirefames were created using balsamiq and can be found in the link below.
     - On the landing page there is a call to action button which will link to a contact form.
     - This can be found in the Contact Page there is a contact form. There is also a link with google maps here.
     - In the footer section of each page the phone numberes and email address for the school are clearly visable.
+
+#### Returning User
+ * Find the contact details for the school so I can contact them directly about specifics such as enrolling a child.
+    - Contact information email/phone number is in the footer of each page. 
+    - Call to action button on landing page which opens a pop up contact form.
+    - Contact Section has an contact form as well as directions to the school.
+ * Want to find there social media details to learn more about the day to day activites in the school.
+    - Links to the schools social media accounts can be found in the footer of each page. Social media updated regularly with school activities.
+ * I want to find out services times to see if this school times would suit my schedule.
+    - In the sessions section can see the times clearly for the two sessions available Monday to Friday.
+    - There is also a link to the pdf of the term timetable for the current school year. This opens in a new tab.
+
 
 ### Testing Functionality
 #### Checked for broken links
@@ -206,4 +218,5 @@ This project was deployed via GitHub pages using the steps below:
 1. Used as a sources when creating the gallery: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
 
 ### Acknowledgements
-* I would like to thank my mentor 
+* I would like to thank my mentor Nishant Kumar for his continuous helpful feedback.
+* Code Institue Slack Community
