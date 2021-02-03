@@ -16,12 +16,12 @@ html {
 
 body {
     font-family: "Merriweather";
-    color: #6688CC;
+    color: #182977;
 }
 
 .container-wrapper {
     background-color: #ACBFE6;
-    color: #6688CC;
+    color: #182977;
 }
 
 /**-- general --*/
@@ -139,14 +139,19 @@ nav{
 }
 
 .navbar-brand {
-    font-weight: 700;
-    color: 182977;
-    
+    font-weight: 600;
+    font-size: 16px;
+    color: 182977;  
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 14px;
 }
 
 
 .navbar .navbar-nav a{
-    font-weight: 700;
+    font-weight: 600;
     color: #182977;
 }
 

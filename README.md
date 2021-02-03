@@ -143,24 +143,25 @@ Wirefames were created using balsamiq and can be found in the link below.
 #### Responsiveness
 * Used Dev Tools and Responsive Viewer extension for chrome to see responsiveness on all devices.
 
-#### OS Test
-
 #### Devices Test
 The website was tested on the following devices:
 * MacBook Pro 13-inch
 * iPhone 11 Pro Max
+The website worked as expected on all devices used. 
 
 #### Browser Test
 Tested the website on most up to date versions of:
 * Google chrome
 * Firefox
 * Safari
-* Internet Explorer
+The website worked as expected on all systems accessed on.
 
-### Testing Performance
-lighthouse
+### Testing Performance & Accessibility
+* I used [Lighthouse](https://developers.google.com/web/tools/lighthouse) for this. 
+Performance and Accessibility both scored 95. 
 
-### Testing Accessibility
+* I also used a color contrast accessibility validator [a11y color contrast](https://color.a11y.com/Contrast/).
+This test found no automated color contrast issues on the site.
 
 ### Code validation
 #### HTML
