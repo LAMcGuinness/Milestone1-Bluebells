@@ -178,9 +178,24 @@ nav{
 
 
 /*-- about--*/
-#about-img1 {
-    height: 100px;
-    width: 75%;
+.about-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#about-img1{
+    height: 450px;
+    width: 100%;
+}
+
+.montessori-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#about-img2 {
+    height: 450px;
+    width: 100%;
 }
 
 /*--Team--*/

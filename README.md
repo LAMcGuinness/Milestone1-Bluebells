@@ -75,6 +75,9 @@ Wirefames were created using balsamiq and can be found in the link below.
 5. [Adobe Color](https://color.adobe.com/create/color-wheel) selected a colour palette for website from adobe color. I chose blue tones as this is inline with current branding the school. 
 
 ## Testing
+### Issues Encountered
+* Drop down menu not working on section pages only working on index page.
+    - Fix: Forgot to add the link for Javascript from Bootstrap at the bottom of the body section to the other pages.
 
 * https://developers.google.com/web/tools/lighthouse
 
