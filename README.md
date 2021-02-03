@@ -76,10 +76,6 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 ## Testing
 
-* https://validator.w3.org/
-
-* https://jigsaw.w3.org/css-validator/
-
 * https://developers.google.com/web/tools/lighthouse
 
 ### Testing Business Scope
@@ -151,8 +147,6 @@ The website was tested on the following devices:
 * MacBook Pro 13-inch
 * iPhone 11 Pro Max
 
-
-
 #### Browser Test
 Tested the website on most up to date versions of:
 * Google chrome
@@ -160,6 +154,20 @@ Tested the website on most up to date versions of:
 * Safari
 * Internet Explorer
 
+### Testing Performance
+lighthouse
+
+### Testing Accessibility
+
+### Code validation
+#### HTML
+HTML code was validated by [W3C Validator](https://validator.w3.org/). Some minor issues such as leaving spaces between image names were highlighted by running this test. This has been rectified and document check shows no errors or warnings.
+
+#### CSS
+CSS was validated by [W3C CSS](https://validator.w3.org/).
+
+### Further testing 
+* Spell check carried out using [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker). Some spelling errors picked up. 
 
 
 ## Deployment

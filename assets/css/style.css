@@ -47,6 +47,8 @@ h5 {
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .page-header h2 {
@@ -182,6 +184,10 @@ nav{
 }
 
 /*--Team--*/
+.team-fname .text-muted{
+    text-align: right;
+}
+
 .team-member{
     margin-top: 10px;
     margin-bottom: 20px;
@@ -223,8 +229,18 @@ small {
 
 
 /*-- sessions --*/
+.sessions-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 #sessions-img {
     align-items: center;
+}
+
+
+.card-group>.card {
+    margin-bottom: 0px;
 }
 
 .sessions-card{

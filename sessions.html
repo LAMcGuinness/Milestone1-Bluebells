@@ -15,25 +15,22 @@
     </head>
     <body>
     <!--Navbar-->
-         <div class="container-fluid navbar-container">
-             <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
+       <div class="container-fluid navbar-container">
+            <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
                   <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/Bluebellslogo.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
-                    Bluebells Montessori
+                    <img src="assets/images/Bluebellslogo.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">Bluebells Montessori
                   </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                <div class="collapse navbar-collapse" id="navbarDropdown">
-    
-                <ul class="navbar-nav mr-auto">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                <div class="collapse navbar-collapse" id="navbarDropdown">    
+                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item mr-2"><a class="nav-link" href="index.html"><span>Home</span></a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="team.html"><span>Team</span></a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="sessions.html"><span>Sessions</span></a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="gallery.html"><span>Gallery</span></a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="contact.html"><span>Contact</span></a></li>
-                </ul>
+                 </ul>
                 </div>
        
             </nav>
@@ -49,44 +46,43 @@
                         <hr class="block-divider">
                     </div>
                 </div>
-                <div class="row">
+                <div class="d-flex flex-row">
            
-                    <div class="col-sm-12 col-lg-6 text-center" id="sessions-img">
-                        <img src="assets/images/time.jpg" class="rounded float-left" alt="boy with clock">
+                    <div class="p-2 d-flex align-items-center justify-content-center flex-column col-sm-12 col-lg-6 " id="sessions-img">
+                        <img src="assets/images/time.jpg" class="rounded" alt="boy with clock">
                     </div>
-                    <div class="col-sm-12 col-lg-6 text-center">
+                    <div class="p-2 col-sm-12 col-lg-6 d-flex flex-wrap align-items-start flex-column justify-content-center" id="sessions-text">
                         <h3>Two sessions daily Monday-Friday</h3>
                             <ul class="sessions-list">
                                 <li>Morning: 09:00-12:30</li>
                                 <li>Afternoon: 13:00-16:30</li>
                             </ul>
-                            * Early dropoff is available at an additional cost to parents
+                            <p>* Early dropoff is available at an additional cost to parents</p>
                     </div>
                 </div>
             </div>
         </div>
         
         <!--from Bootstrap Docs-->
-        <div class="row">
-            <div class="col-sm-12 col-lg-6">
-                <div class="card">
+        <div class="card-group">
+        
+                <div class="card card-ECCE">
                     <div class="card-body text-center sessions-card">
                         <h5 class="card-title card-title-sessions">ECCE Scheme/Free Preschool Year</h5>
                             <p class="card-text">The ECCE Scheme allows children to start pre-school from the age of 3 years and continue until they enter primary school. </p>
                             <a href="https://www.gov.ie/en/publication/2459ee-early-childhood-care-and-education-programme-ecce/" target="_blank" class="btn btn-cta btn-blues text-center">Click Here</a>
                      </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-lg-6">
-                <div class="card">
+            
+                <div class="card card-pdf">
                     <div class="card-body text-center sessions-card">
                         <h5 class="card-title card-title-sessions">Term Times</h5>
                             <p class="card-text">We have the same term times as the local primary schools. Click the link below for our timetable!</p>
-                            <a href="assets/docs/School Schedule.numbers" target="_blank" class="btn btn-cta btn-blues text-center">Our Timetable</a>
+                            <a href="assets/docs/School-Schedule-Year.pdf" target="_blank" class="btn btn-cta btn-blues text-center">Our Timetable</a>
                     </div>
                 </div>
             </div>
-        </div>
+        
 
     <!--Footer-->
    <footer class="container-fluid footer-section">
@@ -135,5 +131,10 @@
                 </div>
                 </div>
             </footer>
+
+        <!--Link to JavaScript from Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
     </body>
 </html>
