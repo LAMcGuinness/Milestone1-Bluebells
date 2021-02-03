@@ -65,12 +65,12 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 ## Technologies Used
 
-## Languages
+### Languages
 
 * HTML
 * CSS
 
-## Frameworks, Libraries and Programs Used
+### Frameworks, Libraries and Programs Used
 
 1. [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) was used 
 
@@ -81,6 +81,19 @@ Wirefames were created using balsamiq and can be found in the link below.
 4. [Font Awesome](https://fontawesome.com/v4.7.0/) was used for icons used throughout the website
 
 5. [Adobe Color](https://color.adobe.com/create/color-wheel) selected a colour palette for website from adobe color. I chose blue tones as this is inline with current branding the school. 
+
+6. [Google Maps](https://www.google.com/maps) was used to share the location of the school.
+
+7. [Photoshop](https://www.adobe.com/photoshop/online/resize-image.html) used to resize and crop images.
+
+8. [Lighthouse](https://developers.google.com/web/tools/lighthouse) used to test accessibility and performance.
+
+9. [W3C Validator](https://validator.w3.org/) used to check code HTML
+
+10. [W3C CSS](https://validator.w3.org/) used to check code in CSS
+
+11. [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker) preformed spell check and corrected spelling mistake using this.
+
 
 
 ## Testing
@@ -198,6 +211,12 @@ This project was deployed via GitHub pages using the steps below:
 5. Clicked on the "Save" button to the right of selection.
 6. Back on the main repository page on the right hand side the "github pages" is active. This is the [link](https://lamcguinness.github.io/Milestone1-Bluebells/)
 
+### Forking the GitHub repository
+Forking the orginal respository on GitHub account can be used to make changes to copy with out affecting the orignal repository. Use the following steps if doing this:
+1. Login to GitHub and locate [Milestone1-Bluebells Respitory](https://github.com/LAMcGuinness/Milestone1-Bluebells)
+2. At the top of Repository just above "Settings" button there is a "Fork" button.
+3. There should now be a copy of the orginal repository in our GitHub account.
+
 
 ## Credits
 
@@ -205,7 +224,9 @@ This project was deployed via GitHub pages using the steps below:
   1. Footer content was modified from "Bootstrap mini project Resume Project by Matt Rudge/Code Institute"
   2. Opaque-overlay and animation on landing page from "Whiskey Drop Project by Matt Rudge/Code Institue"
   3. Gallery content was modified from "How to create an image gallery with CSS Grid on freecodecamp" [Link](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
-  4. Bootstrap Documentation used for modals, buttons, forms, figures etc. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
+  4. Gallery media queries code from "Love Running Project by Code Institute"
+  5. Bootstrap Documentation used for modals, buttons, forms, figures etc. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
+
 
 * Media
 1. Logo was created on [Canva](https://www.canva.com/)
