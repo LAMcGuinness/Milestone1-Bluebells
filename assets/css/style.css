@@ -434,6 +434,27 @@ footer {
      }
  }
 /*-- Extra-Small Screens --*/
+@media screen and (max-width: 400px){
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-toggler{
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .jumbotron-header{
+        font-size: 28px;
+    }
+    .jumbotron-subhead{
+        font-size: 24px;
+    }
+
+    .btn-cta {
+        font-size: 16px;
+    }
+}
 
 
  

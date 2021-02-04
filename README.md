@@ -132,6 +132,9 @@ Wirefames were created using balsamiq and can be found in the link below.
     - In the sessions section can see the times clearly for the two sessions available Monday to Friday.
     - There is also a link to the pdf of the term timetable for the current school year. This opens in a new tab.
 
+#### Parent already using this school
+* Wants to be able to find contact numbers incase of emergency ie running late for a pick up.
+    - Phone and email are available in the footer section on each page. 
 
 ### Testing Functionality
 #### Checked for broken links
@@ -229,6 +232,7 @@ Forking the orginal respository on GitHub account can be used to make changes to
 
 * General Resources
     * https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/#:~:text=481px%20%E2%80%94%20768px%3A%20iPads%2C%20Tablets,more%20%E2%80%94%20Extra%20large%20screens%2C%20TV
+    * https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html
 
 
 * Media
