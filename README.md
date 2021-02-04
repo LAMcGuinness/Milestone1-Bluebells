@@ -104,6 +104,9 @@ Wirefames were created using balsamiq and can be found in the link below.
 * Issues with the istagram social media link.
     - Fix: Type error. Corrected spelling and link to social media is working.
 
+* When viewing on an smaller mobile screen ie an iPhone 5, text was too big in navbar toggler went below brand, callout text was too big. 
+    - Fix: Set up media querries for an extra small screens on affected sections, font size and padding reduced in these areas. 
+
 
 ### Testing User Stories
 #### First time user
@@ -233,6 +236,7 @@ Forking the orginal respository on GitHub account can be used to make changes to
 * General Resources
     * https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/#:~:text=481px%20%E2%80%94%20768px%3A%20iPads%2C%20Tablets,more%20%E2%80%94%20Extra%20large%20screens%2C%20TV
     * https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html
+    * http://www.standardista.com/px-to-rem-conversion-if-root-font-size-is-16px/
 
 
 * Media

@@ -57,6 +57,14 @@ h5 {
 
 }
 
+/*-- section divider--*/
+.block-divider {
+    width: 100px;
+    height: 5px;
+    border: 0;
+    background-color: #6688CC;
+}
+
 /*-- Navbar --*/
 nav{
     background-color: #182977;
@@ -103,13 +111,6 @@ nav{
     border: 0;
 }
 
-/*-- section divider--*/
-.block-divider {
-    width: 100px;
-    height: 5px;
-    border: 0;
-    background-color: #6688CC;
-}
 
 /*-- content containers --*/
 .content-container {
@@ -142,7 +143,7 @@ nav{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .35);
 }
 
 .callout-outer {
@@ -174,6 +175,7 @@ nav{
 
 .jumbotron-subhead {
     color: #182977;
+    font-size: 95%;
     letter-spacing: 1.5px;
 
 }
@@ -402,18 +404,20 @@ footer {
 .btn-blues {
     color: #ACBFE6;
     background-color: #182977; 
+    border-color: #182977;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
 
  /*--need to fix--*/
-.btn--blues:hover,
-.btn--blues:active,
-.btn--blues:focus,
-.btn--blues:active:focus {
-    background-color: rgba(255, 255, 128, .5);
-    border-color: rgba(255, 255, 128, .5);
+.btn-blues:hover,
+.btn-blues:active,
+.btn-blues:focus,
+.btn-blues:active:focus {
+    background-color: #182977;
+    border-color: #182977;
+    color: #F2F2F2;
 }
 
 /*-- media queries --*/
