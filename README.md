@@ -227,6 +227,9 @@ Forking the orginal respository on GitHub account can be used to make changes to
   4. Gallery media queries code from "Love Running Project by Code Institute"
   5. Bootstrap Documentation used for modals, buttons, forms, figures etc. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
 
+* General Resources
+    * https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/#:~:text=481px%20%E2%80%94%20768px%3A%20iPads%2C%20Tablets,more%20%E2%80%94%20Extra%20large%20screens%2C%20TV
+
 
 * Media
 1. Logo was created on [Canva](https://www.canva.com/)

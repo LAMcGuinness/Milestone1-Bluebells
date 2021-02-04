@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
 
 /*-- Color 
-colors 
+colors used throughout
     color: #182977;
     color: #6688CC; 
     color: #ACBFE6;
@@ -34,6 +34,7 @@ h2,
 h3,
 h4,
 h5 {
+    font-family: "Merriweather";
     margin: 10px;
 }
 
@@ -54,6 +55,52 @@ h5 {
 .page-header h2 {
     margin-top: 0;
 
+}
+
+/*-- Navbar --*/
+nav{
+    background-color: #182977;
+    color: #ACBFE6;
+}
+
+.navbar-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;   
+}
+
+.navbar{
+    margin-bottom: 0;
+    border: 0;    
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color: #F2F2F2;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-bar a:hover {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.navbar .navbar-nav a{
+    font-weight: 600;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
 }
 
 /*-- section divider--*/
@@ -112,70 +159,22 @@ h5 {
     }
 }
 
-/*--about setion--*/
-
-
-/*-- Navbar --*/
-nav{
-    background-color: #182977;
-    color: #ACBFE6;
-}
-
-.navbar-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-    
-}
-
-.navbar{
-    margin-bottom: 0;
-    border: 0;    
-    
-    
-}
-
-.navbar-brand {
-    font-weight: 600;
-    font-size: 16px;
-    color: 182977;  
-}
-
-.nav-link {
-    font-weight: 600;
-    font-size: 14px;
-}
-
-
-.navbar .navbar-nav a{
-    font-weight: 600;
-    color: #182977;
-}
-
-.navbar .navbar-toggler {
-    border: 0;
-}
-
-
-
 /*-- Jumbotron --*/
 .jumbotron{
     background-color: transparent;
-
 }
 
 .jumbotron-header {
     color: #182977;
     font-weight: 700;
+    letter-spacing: 2px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .jumbotron-subhead {
     color: #182977;
+    letter-spacing: 1.5px;
 
 }
 
@@ -252,12 +251,28 @@ small {
 .sessions-container {
     padding-left: 25px;
     padding-right: 25px;
-}
-
-#sessions-img {
+    display: flex;
     align-items: center;
 }
 
+#sessions-img {
+    width: 100%;
+    flex-basis: 40%;
+
+}
+
+.sessions-info{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.sessions-list{
+    text-align: center;
+    list-style-position: inside;
+}
 
 .card-group>.card {
     margin-bottom: 0px;
@@ -266,11 +281,6 @@ small {
 .sessions-card{
     background-color: #ACBFE6;
     color: #182977;
-}
-
-.sessions-list{
-    text-align: center;
-    list-style-position: inside;
 }
 
 .card-title-sessions {
@@ -297,17 +307,7 @@ small {
     height: 100%;
     object-fit: cover;
 }
- @media screen and (max-width: 943px){
-     .gallery-grid {
-         column-count: 3;
-     }
- }
-
- @media screen and (max-width: 800px){
-     .gallery-grid{
-         column-count: 2;
-     }
- }
+ 
 
 /*--contactus --*/
 .bg-color-contact {
@@ -405,12 +405,35 @@ footer {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+
  /*--need to fix--*/
-.btn--yellow:hover,
-.btn--yellow:active,
-.btn--yellow:focus,
-.btn--yellow:active:focus {
+.btn--blues:hover,
+.btn--blues:active,
+.btn--blues:focus,
+.btn--blues:active:focus {
     background-color: rgba(255, 255, 128, .5);
     border-color: rgba(255, 255, 128, .5);
 }
 
+/*-- media queries --*/
+
+/*--Large Screens --*/
+/*--Medium Screens --*/
+@media screen and (max-width: 850px){
+    /*--gallery--*/
+     .gallery-grid {
+         column-count: 3;
+     }
+ }
+/*-- Small Screens --*/
+@media screen and (max-width: 600px){
+    /*--gallery--*/
+     .gallery-grid{
+         column-count: 2;
+     }
+ }
+/*-- Extra-Small Screens --*/
+
+
+ 
