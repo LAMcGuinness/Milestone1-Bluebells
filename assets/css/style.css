@@ -56,10 +56,6 @@ h5 {
     margin-top: 0;
 }
 
-.social-header {
-    text-transform: none;
-}
-
 /*-- section divider--*/
 .block-divider {
     width: 100px;
@@ -215,7 +211,7 @@ nav{
 }
 
 .staff-qualification {
-    color: #6688CC;
+    color: #182977;
     font-size: 12px;
 }
 
@@ -250,7 +246,7 @@ nav{
 }
 
 .team-fig-caption {
-    color: #6688CC;
+    color: #182977;
     text-align: justify;
 }
 
@@ -378,10 +374,13 @@ footer {
     min-height: 120px;
     margin: 0;
     padding-top: 15px;
+    padding-bottom:15px;
 }
 
-.social-links {
-    padding-bottom: 15px;
+.social-header {
+    text-transform: none;
+    font-size: 18px;
+    margin: 0;
 }
 
 .social-links li a i {

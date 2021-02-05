@@ -1,8 +1,11 @@
 # Milestone Project 1 - Bluebells Montessori
 
+## About
 This is a website for a montessori school. Its main purpose is a marketing tool for the school. It is designed to be viewed on mobile, tablet and desktop so should be easy to navigate. Bluebells website is an educational project used for the purpose of my Milestone 1 project for the Code Institute.
 
+A live version of the website can be found [Here](https://lamcguinness.github.io/Milestone1-Bluebells/) along with its repository [Here](https://github.com/LAMcGuinness/Milestone1-Bluebells)
 
+![Link to Am I Responsive](/docs/AmIResponsive.png)
 ## UX Design 
 
 ### Business Scope
@@ -36,7 +39,7 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 ## Features
 * Navigation Bar 
-  -  Users can navigate thoughout the website easily with the aid of the navigation bar.
+  -  Users can navigate throughout the website easily with the aid of the navigation bar. The navigation bar is fixed to the top of the screen and also collapses on smaller screens with links to all sections.
 
 * Call to Action/Landing page
   -  There is a call to action button on the page to make it easier for the user to contact the school with questions or enrolling there child.
@@ -54,7 +57,7 @@ Wirefames were created using balsamiq and can be found in the link below.
   - Here the user can find information on the times the school is in operations. Also has links to the goverment website on the ECCE scheme and a link to the PDF of their term timetable.
 
 * Gallery Section
-   -  The gallery section is organised in a grid. Photographs show users school its facilities and some of activities carried out. 
+   -  The gallery section is organised in a grid. Photographs show users school its facilities and some of activities carried out. Column size increases and decreasings depending on screen size making it easier for the user to see images.
 
 * Contact Section
     - Contains a contact form for users to make enquiries to the school. It also contains a link from google maps with directions to the school.
@@ -112,9 +115,6 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 * Hover button would not change color when mouse was over same.
     - Fix: Typo in CSS. Removed the extra "-". Working as expected now.
-
- 
-
 
 ### Testing User Stories
 #### First time user
@@ -201,17 +201,21 @@ The website worked as expected on all systems accessed on.
 
 ### Testing Performance & Accessibility
 * I used [Lighthouse](https://developers.google.com/web/tools/lighthouse) for this. 
-Performance and Accessibility both scored 95. 
+Performance and Accessibility both scored 96 and 98 respectively. 
+![Lighthouse](/docs/LighthouseReport.png)
 
 * I also used a color contrast accessibility validator [a11y color contrast](https://color.a11y.com/Contrast/).
 This test found no automated color contrast issues on the site.
 
 ### Code validation
 #### HTML
-HTML code was validated by [W3C Validator](https://validator.w3.org/). Some minor issues such as leaving spaces between image names were highlighted by running this test. This has been rectified and document check shows no errors or warnings.
+HTML code was validated by [W3C Validator](https://validator.w3.org/). Some minor issues such as leaving spaces between image names were highlighted by running this test. This has been rectified and document check shows no errors or warnings. No errors or warnings to show when all pages tested.
+![HTML Validation](/docs/HTMLValidationMessage.png)
+
 
 #### CSS
-CSS was validated by [W3C CSS](https://validator.w3.org/).
+CSS was validated by [W3C CSS](https://validator.w3.org/). No issues found when tested.
+![CSS Validation](/docs/CSSValidatorResult.png)
 
 ### Further testing 
 * Spell check carried out using [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker). Some spelling errors picked up. 
@@ -245,8 +249,10 @@ Forking the orginal respository on GitHub account can be used to make changes to
   5. Bootstrap Documentation used for modals, buttons, forms, figures etc. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
   6. As a general resources for media querries [freecodecamp media queries](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/#:~:text=481px%20%E2%80%94%20768px%3A%20iPads%2C%20Tablets,more%20%E2%80%94%20Extra%20large%20screens%2C%20TV)
  
-* General Resources
-  Content and ideas for this project were adapted from Bluebells Montessori Schools prospectus. 
+* General
+  * Content and ideas for this project were adapted from Bluebells Montessori Schools prospectus. 
+  * [IvyLane.ie](http://www.ivylane.ie/) a source of inpiration. Some ideas on structure were adapted from here.
+  * [Safari Childcare](https://www.safarichildcare.ie/) another general source for ideas. 
 
 * Media
 1. Logo was created on [Canva](https://www.canva.com/)
