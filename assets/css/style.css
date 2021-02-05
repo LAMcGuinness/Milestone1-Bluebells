@@ -201,6 +201,10 @@ nav{
 }
 
 /*--Team--*/
+.team-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .team-fig-caption{
     text-align: left;
     margin: 0;
@@ -227,22 +231,22 @@ nav{
 
 #staff-img1 {
     height: 400px;
-    width: 300px;
+    width: 100%;
 }
 
 #staff-img2 {
     height: 400px;
-    width: 300px;
+    width: 100%;
 }
 
 #staff-img3 {
     height: 400px;
-    width: 300px;
+    width: 100%;
 }
 
 #staff-img4 {
     height: 400px;
-    width: 300px;
+    width: 100%;
 }
 
 .team-fig-caption {
