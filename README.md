@@ -98,6 +98,9 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 ## Testing
 ### Issues Encountered
+* Quotes were not aligning horizontally when put in place initially.
+    -Fix: had the closing for row div placed after the first quote. Moved to after quote 3 working as expected now.
+
 * Drop down menu not working on section pages only working on index page.
     - Fix: Forgot to add the link for Javascript from Bootstrap at the bottom of the body section to the other pages.
 
@@ -106,6 +109,11 @@ Wirefames were created using balsamiq and can be found in the link below.
 
 * When viewing on an smaller mobile screen ie an iPhone 5, text was too big in navbar toggler went below brand, callout text was too big. 
     - Fix: Set up media querries for an extra small screens on affected sections, font size and padding reduced in these areas. 
+
+* Hover button would not change color when mouse was over same.
+    - Fix: Typo in CSS. Removed the extra "-". Working as expected now.
+
+ 
 
 
 ### Testing User Stories
@@ -179,6 +187,9 @@ Wirefames were created using balsamiq and can be found in the link below.
 The website was tested on the following devices:
 * MacBook Pro 13-inch
 * iPhone 11 Pro Max
+* Microsoft Surface Go
+* Huawei P30 lite
+* HP Chromebook 14
 The website worked as expected on all devices used. 
 
 #### Browser Test
@@ -232,12 +243,10 @@ Forking the orginal respository on GitHub account can be used to make changes to
   3. Gallery content was modified from "How to create an image gallery with CSS Grid on freecodecamp" [Link](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
   4. Gallery media queries code from "Love Running Project by Code Institute"
   5. Bootstrap Documentation used for modals, buttons, forms, figures etc. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
-
+  6. As a general resources for media querries [freecodecamp media queries](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/#:~:text=481px%20%E2%80%94%20768px%3A%20iPads%2C%20Tablets,more%20%E2%80%94%20Extra%20large%20screens%2C%20TV)
+ 
 * General Resources
-    * https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/#:~:text=481px%20%E2%80%94%20768px%3A%20iPads%2C%20Tablets,more%20%E2%80%94%20Extra%20large%20screens%2C%20TV
-    * https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html
-    * http://www.standardista.com/px-to-rem-conversion-if-root-font-size-is-16px/
-
+  Content and ideas for this project were adapted from Bluebells Montessori Schools prospectus. 
 
 * Media
 1. Logo was created on [Canva](https://www.canva.com/)
@@ -246,10 +255,8 @@ Forking the orginal respository on GitHub account can be used to make changes to
 1. www.despositphotos.com
 2. www.pixabay.com
 3. www.shutterstock.com
-
-* Code
-1. Used as a sources when creating the gallery: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
+4. Supplied by school
 
 ### Acknowledgements
 * I would like to thank my mentor Nishant Kumar for his continuous helpful feedback.
-* Code Institue Slack Community
+
